@@ -1,9 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+#title {
+    text-align: center;
+    margin: auto;
+}
+
 .table {
     background-color: aquamarine;
     text-align: center;
+    margin: auto;
 }
 
+caption {
+    font-weight: bold;
+}
+
+.table,
 th,
 td {
     border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
 }
